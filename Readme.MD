@@ -1,2 +1,2 @@
 # About
-This is placeholder for my portfolio project
+This is a placeholder for my portfolio project
