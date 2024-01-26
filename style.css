@@ -19,18 +19,18 @@ nav {
     font-size: 20px;
 }
 
-.nav-container {
+.navbar {
     width: 80%;
     margin: auto;
 }
 
-.section1 {
+.nabar__nav-list {
     display: flex;
     flex-direction: row;
     align-items: center;  
 }
 
-.section1 button {
+.navbar__togg-btn {
     display: none;
     border: none;
     background-color: gray;
@@ -38,38 +38,38 @@ nav {
     padding: 1rem;
 }
 
-.section1 li a {
+.navbar__link {
     padding: 1rem;
     display: block;
 }
 
-.section1 li a:hover {
+.navbar__link:hover {
     background-color: darkgray;
 }
 
-.section1 li a:focus {
+.navbar__link:focus {
     background-color: darkgray;
 }
 
-.section1 button:hover {
+.navbar__togg-btn:hover {
     background-color: darkgray;
 }
 
 @media (max-width: 800px) {
-    .nav-container {
+    .navbar {
         width: 100%;
     }
 
-    .section1 {
+    .nabar__nav-list {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .section1 button {
+    .navbar__togg-btn {
         display: block;
     }
 
-    .section1 li {
+    .navbar__list-elem {
         width: 100%;
     }
 }

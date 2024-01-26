@@ -6,12 +6,22 @@
     </head>
     <body>
         <nav>
-            <div class="nav-container">
-                <ul class="section1">
-                    <li><button id="toggle-button"><img src="icons8-menu.svg" alt="toggle menu" width="20px"></button></li>
-                    <li class="toggleable"><a href="#">Home</a></li>
-                    <li class="toggleable"><a href="#">About</a></li>
-                    <li class="toggleable"><a href="#">Contact</a></li>
+            <div class="navbar">
+                <ul class="nabar__nav-list">
+                    <li class="navbar__list-elem">
+                        <button class="navbar__togg-btn" id="toggle-button">
+                            <img class= "navbar__menu-img" src="icons8-menu.svg" alt="toggle menu" width="20px">
+                        </button>
+                    </li>
+                    <li class="navbar__list-elem navbar__list-elem--toggleable">
+                        <a class="navbar__link" href="#">Home</a>
+                    </li>
+                    <li class="navbar__list-elem navbar__list-elem--toggleable">
+                        <a class="navbar__link" href="#">About</a>
+                    </li>
+                    <li class="navbar__list-elem navbar__list-elem--toggleable">
+                        <a class="navbar__link" href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
         </nav>
