@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+    grid-template-areas: "nav nav nav" "left-side main right-side" "footer footer footer";
+}
+
+nav {
+    grid-area: nav;
+}
+
+.left-side {
+    grid-area: left-side;
+}
+
+.right-side {
+    grid-area: right-side;
+}
+
+footer {
+    grid-area: footer;
+}
