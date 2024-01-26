@@ -1,2 +1,2 @@
 # About
-This is a placeholder for my portfolio project
+I will present my dev projects on this website.
